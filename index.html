@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Sign In</title>
+  <link rel="shortcut icon" type="image/png" href="amazon.png" />
+  <script src="amazon.js"></script>
+</head>
+<body>
+  <link rel="stylesheet" href="amazon.css" />
+  <div class="login">
+    <img class="login_logo" src="amazon.in.png" />
+    <div class="login_container">
+      <h1>Sign in</h1>
+      <form>
+        <h5>Email or mobile phone number</h5>
+        <input type="text" name="Email" />
+        <h5>Password</h5>
+        <input type="password" name="password" minlength="8" id="myInput" />
+        <span>&#x1F441<input type="checkbox" onclick="myFunction()"></span>
+        <button class="login__signInButton">Continue</button>
+        <h5>
+          By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.
+        </h5>
+        <button class="login_registerButton">Create Your Account</button>
+      </form>
+    </div>
+    <footer>
+      <nav>
+        <ul class="space">
+          <a style="text-decoration: none" href="#">Conditions of Use</a>
+          <a style="text-decoration: none" href="#">Privacy Notice</a>
+          <a style="text-decoration: none" href="#">Help</a>
+        </ul>
+      </nav>
+      © 1996-2023, Amazon.com, Inc. or its affiliates
+    </footer>
+  </div>
+</body>
+
+</html>
